@@ -31,7 +31,7 @@ class TestCalculator(unittest.TestCase):
         # with self.assertRaises(<INSERT_ERROR_TYPE>):
         #     div(0, 5)
         with self.assertRaises(ZeroDivisionError):
-            assert divide(0, 5)
+            divide(0, 5)
 
     def test_logarithm(self): # 3 assertions
         assert logarithm(25, 5) == 2
