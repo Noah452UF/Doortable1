@@ -22,15 +22,15 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        assert multiply(3, 4) == 12
-        assert multiply(10, 10) == 100
-        assert multiply(5, 12) == 60
+        assert mul(3, 4) == 12
+        assert mul(10, 10) == 100
+        assert mul(5, 12) == 60
 
 
     def test_divide(self): # 3 assertions
-        assert divide(10, 10) == 1
-        assert divide(5, 25) == 5
-        assert divide(3, 39) == 13
+        assert div(10, 10) == 1
+        assert div(5, 25) == 5
+        assert div(3, 39) == 13
     # ##########################
 
     ######## Partner 2
