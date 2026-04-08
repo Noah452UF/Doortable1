@@ -25,7 +25,11 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-
+def divide(a, b)
+    try:
+        return b / a
+    except:
+        raise ZeroDivisionError
 
 def logarithm(a, b):
     try:
