@@ -1,3 +1,6 @@
+# https://github.com/Noah452UF/Doortable1
+# Partner 1 Noah Poston
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
